@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    font-family: serif;
+    margin: 1.5cm;
+}
+
+header, main, footer{
+    background-color: white;
+    width: 100%;
+    border: none;
+}
+
+section{
+    background-color: white;
+}
+
+/*A link eltavolitasa*/
+
+footer a{
+    display: none;
+}

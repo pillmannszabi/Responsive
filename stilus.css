@@ -1,0 +1,77 @@
+/*alap*/
+body{
+    font-family: sans-serif;
+}
+
+main, header, footer{
+    background-color: rgb(241, 241, 241);
+    width: 95%;
+    border: 0.5vw solid darkgray;
+    text-align: center;
+    margin: 10px auto;
+}
+
+section{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+section:last-child{
+    margin-right: 2%;
+}
+
+main{
+    overflow: hidden;
+}
+
+section>img{
+    width: 100%;
+}
+
+
+
+/*mobilnezet*/
+@media screen and (max-width: 500px) {
+    section{
+        width: 100%;
+        float: none;
+        margin: 20px 0px;
+        border-bottom: 2px solid grey;
+    }
+    
+    section:last-child{
+        border-bottom:none ;
+    }
+}
+
+
+/*nyomtatasikep*/
+
+@media print {
+    body{
+        background-color: white;
+        font-family: serif;
+        margin: 1.5cm;
+    }
+    
+    header, main, footer{
+        background-color: white;
+        width: 100%;
+        border: none;
+    }
+    
+    section{
+        background-color: white;
+    }
+    
+    /*A link eltavolitasa*/
+    
+    footer a{
+        display: none;
+    }
+}

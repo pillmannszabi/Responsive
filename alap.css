@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+}
+
+main, header, footer{
+    background-color: rgb(241, 241, 241);
+    width: 95%;
+    border: 0.5vw solid darkgray;
+    text-align: center;
+    margin: 10px auto;
+}
+
+section{
+    width: 30%;
+    margin-left: 2%;
+    margin-right: 1%;
+    float: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 0px;
+}
+
+section:last-child{
+    margin-right: 2%;
+}
+
+main{
+    overflow: hidden;
+}
+
+section>img{
+    width: 100%;
+}
